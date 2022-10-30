@@ -132,6 +132,9 @@
     .table .table__box__form{
         gap: 10px;
     }
+    .table .table__box{
+        width: 90%;
+    }
     
 }
 @media screen and (max-width:820px) {
@@ -139,17 +142,21 @@
         width: 740px;
     }
     .table__box__button{
-        width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
     .table__box{
-        padding: 40px;
+        padding: 30px;
+        width: 90%;
     }
    
 }
 @media screen and (max-width:750px) {
     .table .container{
         width: 640px;
+    }
+    .table__box{
+        width: 100%;
+        padding: 20px;
     }
 }
 @media screen and (max-width:650px) {
@@ -160,5 +167,8 @@
 @media screen and (max-width:520px) {
     .table .container{
         width: 400px;
+    }
+    .table__box{
+        padding: 10px;
     }
 }
