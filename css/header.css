@@ -234,6 +234,7 @@ main {
 @media screen and (max-width:1024px) {
      .content {
           max-width: 400px;
+          margin-left: 30px;
      }
 
      .nav_list ul {
@@ -429,6 +430,7 @@ main {
 
      .nav_list {
           padding: 0px;
+          padding-left: 30px;
           max-width: 700px;
      }
 
