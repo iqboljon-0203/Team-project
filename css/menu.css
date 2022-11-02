@@ -47,7 +47,7 @@
 }
 .menu_section_left__bottom_img{
     margin-top: 20px;
-    width: 350px;
+    width: 90%;
     border-radius: 2px;
 }
 .menu_section_left__bottom__button{
@@ -316,22 +316,32 @@
     }
     .menu_section_left__bottom_title{
         text-align: center;
+        margin: 0 auto;
         width: 65vw;
         font-size: 31px;
     }
     .menu_section_left__bottom_text{
         width: 98vw;
         font-size: 17px;
-        text-align: justify;
+        pad: 0 30px;
+        text-align: center;
     }
     .menu_section_left__bottom_img{
-        width: 100vw;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .menu_section_left__bottom_img img{
+        width: 90%;
+
     }
     .menu_section_left__bottom__button{
         height: 50px;
         width: 165px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
         margin-top: 30px;
-        display: block;
         margin: 0 auto;
 
     }
