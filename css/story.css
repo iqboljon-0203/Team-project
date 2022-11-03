@@ -120,3 +120,139 @@
     color: #555555;
     margin-bottom: 21px;
 }
+.story__writer__signature{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+    margin-bottom: 21px;
+}
+@media screen and (max-width:1320px) {
+    .time .container{
+        width: 1200px;
+    }
+}
+@media screen and (max-width:1220px) {
+    .time .container{
+        width: 1100px;
+    }
+}
+@media screen and (max-width:1120px) {
+    .time .container{
+        width: 1000px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .time .container{
+        width: 900px;
+    }
+}
+@media screen and (max-width:920px) {
+    .time .container{
+        width: 800px;
+    }
+    .time__list{
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    .time__item{
+        width: 100%;
+        margin: 0 auto;
+    }
+   
+    
+}
+@media screen and (max-width:820px) {
+    .time .container{
+        width: 740px;
+    }
+}
+@media screen and (max-width:750px) {
+    .time .container{
+        width: 640px;
+    }
+}
+@media screen and (max-width:650px) {
+    .time .container{
+        width: 510px;
+    }
+
+    
+}
+@media screen and (max-width:520px) {
+    .time .container{
+        width: 400px;
+    } 
+}
+@media screen and (max-width:420px) {
+    .time .container{
+        width: 300px;
+    } 
+}
+@media screen and (max-width:1320px) {
+    .story .container{
+        width: 1200px;
+    }
+}
+@media screen and (max-width:1220px) {
+    .story .container{
+        width: 1100px;
+    }
+}
+@media screen and (max-width:1120px) {
+    .story .container{
+        width: 1000px;
+    }
+}
+@media screen and (max-width:1020px) {
+    .story .container{
+        width: 900px;
+    }
+}
+@media screen and (max-width:920px) {
+    .story .container{
+        width: 800px;
+        flex-direction: column;
+    }
+    .story__img{
+        width: 100%;
+    }
+    .story__img__in{
+        width: 100%;
+        padding: 5px;
+    }
+    .story__info{
+        width: 100%;
+    }
+}
+@media screen and (max-width:820px) {
+    .story .container{
+        width: 740px;
+    }
+}
+@media screen and (max-width:750px) {
+    .story .container{
+        width: 640px;
+    }
+}
+@media screen and (max-width:650px) {
+    .story .container{
+        width: 510px;
+    }
+
+    
+}
+@media screen and (max-width:520px) {
+    .story .container{
+        width: 400px;
+    } 
+}
+@media screen and (max-width:420px) {
+    .story .container{
+        width: 300px;
+    } 
+}
