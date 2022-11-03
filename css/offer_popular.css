@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,400;0,500;0,600;0,700;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+a{
+    display: inline-block;
+}
+body{
+    font-family: 'Cormorant Infant', 'Josefin Sans', serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+}
+.container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+/* offers-menu_container start */
+/* offers start */
+.offers-menu_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+}
+.offers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.offers__button{
+    color: #292E36;
+    line-height: 22px;
+    font-size: 15px;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    cursor: pointer;
+}
+.offers__title{
+    color: #292E36;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 56px;
+}
+.offers__title__text{
+    color: #555555;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 52vw;
+}
+.offers__box{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 50px;
+}
+.offers__box_a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/img/back_blue.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45.3vw;
+}
+.offers__box_a__a{
+    width: 17vw;
+}
+.offers__box_a__a__cloud{
+    width: 11vw;
+    margin-top: 60px;
+    margin-bottom: 42px;
+}
+.offers__box_a__a__discount{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    width: 15vw;
+    border-top: 1px solid #292E36;
+    border-bottom: 1px solid #292E36;
+    color: #292E36;
+}
+.offers__box_a__a__title{
+    color: #292E36;
+    width: 18vw;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 56px;
+}
+.offers__box_a__a__text{
+    width: 17vw;
+    color: #555555;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+}
+.offers__box_b{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/img/back_grey.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45.3vw;
+    padding-left: 1vw;
+}
+/* offers end */
+/* menu start */
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 97vw;
+}
+.menu__button{
+    color: #292E36;
+    line-height: 22px;
+    font-size: 15px;
+    border-top: 1px solid #E1B168;
+    border-bottom: 1px solid #E1B168;
+    cursor: pointer;
+}
+.menu__title{
+    color: #292E36;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 56px;
+}
+.menu__text{
+    color: #555555;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 48vw;
+}
+.menu__box{
+    display: flex;
+    flex-direction: row;
+    width: 93vw;
+    gap: 30px;
+    margin-top: 45px;
+}
+.menu__box_a{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.menu__box_a__img{
+    width: 21.3vw;
+}
+.menu__box_a__price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 28px;
+}
+.menu__box_a__price:hover{
+    font-weight: 900;
+    cursor: pointer;
+}
+.menu__box_a__line{
+    color: #DCDCDC;
+}
+.menu__box_a__text{
+    font-size: 20px;
+    width: 20vw;
+}
+.offers-menu_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    border: 2px solid #E1B168;
+    color: #E1B168;
+    width: 18vw;
+    margin-top: 8vh;
+}
+[href="#all_dishes"]{
+    text-decoration: none;
+}
+/* menu end */
+@media (max-width:1400px){
+    .offers__box_a__a__discount{
+        font-size: 16px;
+        width: 13vw;
+    }
+    .offers__box_a__a{
+        margin-bottom: 35px;
+    }
+    .menu__box{
+        width: 92vw;
+    }
+    .menu__box_a{
+        gap: 30px;
+    }
+    .menu__box_a__img{
+        width: 21.6vw;
+    }
+    .menu__box_a__a{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .menu__box_a__b{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media (max-width:1320px){
+    .offers__box_a__a__cloud{
+        width: 9vw;
+    }
+    .offers__box_a__a__discount{
+        line-height: 1.5;
+        letter-spacing: 3px;
+    }
+    .offers__box_a__a__title{
+        font-size: 34px;
+    }
+    .offers__box_a__a__text{
+        width: 18vw;
+        font-size: 19px;
+    }
+}
+@media (max-width:1220px){
+    .offers__box_a__a__discount{
+        width: 15vw;
+    }
+    .offers__box_a__b{
+        width: 22vw;
+    }
+    .offers__box_a__a__title{
+        font-size: 30px;
+        width: 19vw;
+    }
+    .offers__box_a__a__text{
+        font-size: 17px;
+    }
+    .menu__box_a__price{
+        font-size: 23px;
+    }
+    .menu__box_a__text{
+        font-size: 15px;
+    }
+    .offers__button{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .menu__button{
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .offers__title{
+        font-size: 30px;
+    }
+    .offers__title__text{
+        font-size: 16px;
+        width: 56vw;
+    }
+    .menu__box_a__img{
+        width: 21vw;
+    }
+    .menu__title{
+        font-size: 30px;
+    }
+    .menu__text{
+        width: 51vw;
+        font-size: 16px;
+    }
+}
+@media (max-width:1020px){
+    .offers-menu_container{
+        gap: 80px;
+    }
+    .offers__box_a__a__discount{
+        width: 15vw;
+        font-size: 14px;
+    }
+    .offers__box_a__a__title{
+        width: 22vw;
+        font-size: 26px;
+    }
+    .offers__box_a__b{
+        width: 21vw;
+    }
+    .offers__box_a__a__text{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .offers__box_a__a__cloud{
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .offers__title__text{
+        width: 60vw;
+    }
+    .menu__box{
+        gap: 15px;
+    }
+    .menu__box_a{
+        gap: 15px;
+    }
+    .menu__box_a__img{
+        width: 22vw;
+    }
+    .menu__box_a__price{
+        font-size: 21px;
+    }
+    .menu__box_a__text{
+        width: 22vw;
+    }
+    .menu__text{
+        width: 58vw;
+    }
+}
+@media (max-width:930px){
+    .offers-menu_container{
+        gap: 60px;
+    }
+    .offers__title__text{
+        font-size: 15px;
+        width: 65vw;
+        line-height: 25px;
+    }
+    .offers__box{
+        margin-top: 30px;
+    }
+    .offers__box_a__a__discount{
+        letter-spacing: 2px;
+        font-size: 13px;
+    }
+    .offers__box_a__a__title{
+        font-size: 24px;
+    }
+    .offers__box_a__a__text{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .offers__box_a__b{
+        width: 20vw;
+    }
+    .menu__text{
+        font-size: 15px;
+        width: 60vw;
+    }
+    .menu__box_a__img{
+        width: 22vw;
+    }
+    .menu__box_a__a{
+        gap: 7px;
+    }
+    .menu__box_a__b{
+        gap: 7px;
+    }
+    .menu__box{
+        margin-top: 35px;
+        gap: 30px;
+        width: 93vw;
+    }
+    .menu__box_a__price{
+        font-size: 17px;
+    }
+    .menu__box_a__text{
+        width: 21vw;
+        font-size: 13px;
+    }
+    .offers-menu_button{
+        font-size: 18px;
+    }
+}
+@media (max-width:800px){
+    .offers__title__text{
+        width: 73vw;
+    }
+    .offers__box{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .offers__box_a{
+        width: 77vw;
+        justify-content: space-around;
+    }
+    .offers__box_a__a__cloud{
+        width: 13vw;
+    }
+    .offers__box_a__a__discount{
+        font-size: 15px;
+        width: 18vw;
+    }
+    .offers__box_a__a__title{
+        font-size: 25px;
+    }
+    .offers__box_a__a__text{
+        font-size: 14px;
+        width: 21vw;
+    }
+    .offers__box_a__b{
+        width: 32vw;
+    }
+    .offers__box_b{
+        width: 77vw;
+        justify-content: space-around;
+    }
+    .menu__button{
+        line-height: 21px;
+    }
+    .menu__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu__text{
+        line-height: 25px;
+        width: 68vw;
+    }
+    .menu__box_a{
+        display: flex;
+        flex-direction: row;
+    }
+    .menu__box_a__img{
+        width: 37.7vw;
+    }
+    .menu__box_a__price{
+        font-size: 23px;
+    }
+    .menu__box_a__text{
+        width: 29vw;
+        font-size: 16px;
+    }
+}
+@media (max-width:720px){
+    .offers__title__text{
+        width: 85vw;
+    }
+    .offers__box_a{
+        width: 85vw;
+    }
+    .offers__box_b{
+        width: 85vw;
+    }
+    .offers__box_a__a__discount{
+        width: 21vw;
+    }
+    .offers__box_a__a__title{
+        width: 24vw;
+        font-size: 24px;
+    }
+    .offers__box_a__a__text{
+        width: 23vw;
+        font-size: 13px;
+    }
+    .menu__text{
+        width: 78vw;
+    }
+    .menu__box_a__img{
+        width: 41vw;
+    }
+    .menu__box_a__text{
+        width: 34vw;
+    }
+}
+@media (max-width:620px){
+    .offers__title{
+        font-size: 24px;
+        line-height: 50px;
+    }
+    .offers__title__text{
+        width: 97vw;
+        font-size: 14px;
+    }
+    .offers__box_a{
+        width: 95vw;
+    }
+    .offers__box_a__a__discount{
+        width: 25vw;
+    }
+    .offers__box_a__a__title{
+        width: 31vw;
+    }
+    .offers__box_a__a__text{
+        width: 28vw;
+    }
+    .offers__box_b{
+        width: 95vw;
+    }
+    .menu__title{
+        font-size: 24px;
+        line-height: 50px;
+    }
+    .menu__text{
+        width: 96vw;
+    }
+    .menu__box_a__img{
+        width: 46vw;
+    }
+    .menu__box_a__price{
+        font-size: 21px;
+    }
+    .menu__box_a__text{
+        font-size: 14px;
+        width: 40vw;
+    }
+    .offers-menu_button{
+        font-size: 12px;
+        line-height: 30px;
+        width: 21vw;
+    }
+}
+@media (max-width:520px){
+    .offers__title__text{
+        width: 95vw;
+        font-size: 13px;
+    }
+    .offers__title{
+        line-height: 38px;
+    }
+    .offers__box_a__b{
+        width: 39vw;
+    }
+    .offers__box_a__a__discount{
+        width: 33vw;
+    }
+    .offers__box_a__a__title{
+        width: 37vw;
+    }
+    .offers__box_a__a__text{
+        width: 34vw;
+    }
+    .offers__box_a__a__cloud{
+        width: 17vw;
+    }
+    .menu{
+        width: 96vw;
+    }
+    .menu__title{
+        line-height: 38px;
+    }
+    .menu__text{
+        font-size: 13px;
+    }
+    .menu__box_a__price{
+        font-size: 19px;
+    }
+    .menu__box_a__text{
+        font-size: 12px;
+    }
+    .offers-menu_button{
+        width: 28vw;
+    }
+}
+@media (max-width:420px){
+    .offers__title__text{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .offers__box_a__a__discount{
+        width: 39vw;
+        font-size: 14px;
+    }
+    .offers__box_a__a__title{
+        width: 43vw;
+        font-size: 22px;
+    }
+    .offers__box_a__a__text{
+        width: 47vw;
+    }
+    .offers__box_a__b{
+        margin-left: 20vw;
+        width: 43vw;
+    }
+    .offers__box_a__a__cloud{
+        width: 23vw;
+    }
+    .menu{
+        width: 95vw;
+    }
+    .menu__text{
+        font-size: 12px;
+        width: 95vw;
+        line-height: 25px;
+    }
+    .menu__box_a__img{
+        width: 45vw;
+    }
+    .menu__box_a__price{
+        font-size: 14px;
+    }
+    .menu__box_a__text{
+        font-size: 10px;
+        width: 43vw;
+    }
+    .offers-menu_button{
+        width: 34vw;
+        line-height: 26px;
+    }
+}
+/* offer-menuuz_container end */
