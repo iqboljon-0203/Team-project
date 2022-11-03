@@ -11,7 +11,6 @@
 .background {
      background: #292E36;
      width: 100%;
-     padding-bottom: 60px;
 }
 
 nav {
@@ -98,19 +97,22 @@ main {
 
 .content {
      padding-right: 50px;
-     margin-left: 0px;
-     padding-left: 0px;
+     padding-left: 20px;
      width: 750px;
      float: left;
+     margin-bottom: 200px;
 }
 
 .frame {
      margin-left: 0px;
      display: flex;
+     justify-content: space-between;
+     gap: 30px;
      margin-right: 10px;
 }
 
 .content h1 {
+     padding-left: 40px;
      font-family: 'Cormorant Infant';
      font-style: normal;
      font-weight: 400;
@@ -129,6 +131,7 @@ main {
 }
 
 .content p {
+     padding-left: 40px;
      margin-top: 26px;
      font-family: 'Josefin Sans';
      font-style: normal;
@@ -141,6 +144,7 @@ main {
 }
 
 .content button {
+     margin-left: 40px;
      margin-top: 35px;
      background-color: #292E36;
      padding: 20px 57px;
