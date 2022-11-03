@@ -1,6 +1,7 @@
 .menu{
     width: 100%;
     height: auto;
+    padding-bottom: 140px;
 }
 /* menu section start */
 .menu_section{
@@ -18,12 +19,13 @@
     gap: 13px;
 }
 .menu_section_left__title{
+    padding-top: 140px;
     font-family: "josefin" sans-serif;
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 3px;
-    text-align: center;
+    margin-right: auto;
     width: 5%;
     border-top: 2px solid #E1B168;
     border-bottom: 2px solid #E1B168;
