@@ -46,7 +46,7 @@
 .menu_section_left__bottom_img{
     margin-top: 20px;
     width: 350px;
-    border-radius:2px;
+    border-radius: 2px;
 }
 .menu_section_left__bottom__button{
     margin-top: 40px;
@@ -150,7 +150,12 @@
 /* menu section box c end */
 
 /* menu section right end */
-.menu_section_right__box_a__line_a__text__text{
+@media (max-width:1400px){
+    .menu_section{
+        max-width: 1400px;
+        margin: 0 auto;
+     }
+     .menu_section_right__box_a__line_a__text__text{
         width: 52vw;
      }
      .menu_section_left__bottom_text{
@@ -159,6 +164,7 @@
      .menu_section_left__title{
         width: 4.3%;
      }
+}
 @media (max-width:1360px){
     .menu_section{
         max-width: 1360px;
