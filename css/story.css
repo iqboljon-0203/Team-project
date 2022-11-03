@@ -1,0 +1,122 @@
+.time{
+    width: 100%;
+    height: auto;
+    padding: 100px 120px 60px 40px;
+    background-color: #FFF8F5;
+}
+.time .container .time__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.time__item{
+    display: flex;
+    align-items:center;
+}
+.time__img{
+    margin-right: 20px;
+}
+.time__info__title{
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    margin-bottom: 5px;
+}
+.time__info__text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+.time__info__text a{
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+}
+.story{
+    width: 100%;
+    height: auto;
+    padding: 84px 67px 125px 40px;
+    background-color: #FFF8F5;
+
+}
+.story .container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 45px;
+}
+.story__img{
+    width: 55%;
+}
+.story__info{
+    width: 45%;
+}
+.story__title{
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    margin-bottom: 15px;
+}
+.story__text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+    margin-bottom: 25px;
+}
+.story__info__div{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.info__div__year{
+    font-family: 'Cormorant Infant';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.2px;
+    color: #292E36;
+    margin-bottom: 15px;
+}
+.info__year__text{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+.story__writer{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #555555;
+    margin-bottom: 21px;
+}
